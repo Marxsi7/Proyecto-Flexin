@@ -2,8 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
+.fondo{
+    background: rgba(0, 0, 0, 0.438);
+
+}
+header{
+    background-image: url(https://josssy.com/wp-content/uploads/2020/01/nominados-mejor-poster-2019-josssy-1200x752.jpg);
+    background-size: 100%;
+}
 .Verificación {
     width: 400px;
     background: rgba(7, 49, 126, 0.837);
@@ -32,6 +41,8 @@ h2 {
 label {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    
+    
 }
 
 .Verificación p {
