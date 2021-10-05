@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+h1 {
+
+}
+
+.logotipo {
+    
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(255, 38, 38);
+    text-shadow: rgb(3, 3, 3) 0px 3px 0px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    background: #333;
+    
+}
+.navbar a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: beige;
+    
+}
+.navbar a:hover{
+    color: crimson;
+}
+.links{
+    display:flex;
+    
+}
+section{
+    padding:200px;
+}
+.fondo{
+    background: rgba(0, 0, 0, 0.438);
+}
