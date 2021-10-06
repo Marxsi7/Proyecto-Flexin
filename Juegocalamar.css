@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-h1 {
-
-}
-
 .logotipo {
     
     font-family: 'Bebas Neue', cursive;
@@ -12,6 +8,7 @@ h1 {
     color: rgb(255, 38, 38);
     text-shadow: rgb(3, 3, 3) 0px 3px 0px;
 }
+
 nav{
     position: fixed;
     width: 100%;
@@ -23,10 +20,12 @@ nav{
 .navbar a{
     padding: 0px 5px;
     text-decoration: none;
-    color: beige;
+    color: #AAA;
+    margin-right: 28px;
+
     
 }
-.navbar a:hover{
+.navbar a:hover    {
     color: crimson;
 }
 .links{
@@ -38,4 +37,67 @@ section{
 }
 .fondo{
     background: rgba(0, 0, 0, 0.438);
+}
+
+h1.calamargame {
+    height: 30px;
+    text-align: left;
+    text-shadow: #333 4px 3px;
+    color: rgb(237, 96, 53);
+    background-size: cover;
+}
+
+.imagenfondo {
+    background-image: url(https://loqueva.com/wp-content/uploads/2021/10/el-juego-del-calamar-serie-netflix-3-scaled.jpg);
+    background-size: 100%;
+    opacity: 0,6;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    background-size: cover;
+}
+.botons  {
+    width: 40%;
+    background: rgba(2, 2, 2, 0.583);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 5px 0;
+    font-size: 16px;
+    transition: 3s ease all;
+    background-size: cover;
+}
+svg {
+    color: white;
+}
+
+.verserie .boton:hover {
+    background: #fff ;
+    color: #000;
+}
+.vertrailer .boton:hover {
+    background: #fff ;
+    color: #000;
+}
+
+.verserie .boton i {
+    margin-right: 1.25em;
+}
+.vertrailer .boton i {
+    margin-right: 1.25em;
+}
+
+@media screen and (max-width: 888px){
+    header .logo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .logotipo {
+        flex-direction: column;
+        text-align:center ;
+
+    }
 }
