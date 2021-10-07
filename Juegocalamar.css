@@ -125,3 +125,6 @@ svg {
     width: 100%;
 }
 
+.imagen {
+    display: flex;
+}
