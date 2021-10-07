@@ -22,12 +22,31 @@ nav{
     text-decoration: none;
     color: #AAA;
     margin-right: 28px;
+    position: relative;
 
     
 }
 .navbar a:hover    {
-    color: crimson;
+    text-decoration: none;
+    color: rgb(220, 20, 60);
+    background: rgb(213, 201, 201);
 }
+
+.navbar a:before    {
+    display: block;
+    content: '' ;
+    width: 0%;
+    background: rgba(182, 22, 22, 0.727);
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition:  1s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
 .links{
     display:flex;
     
